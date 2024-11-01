@@ -1,0 +1,21 @@
+{
+  "name": "softwarehut/wp_linker",
+  "description": "Plugin search for given keyword and automaticly links to wanted address",
+  "type": "wpplugin",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "Mateusz",
+      "email": "mateusz@softwarehut.net"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SoftwareHut\\WPLinker\\": "classes/"
+    },
+    "files": [
+      "includes/functions.php"
+    ]
+  }
+}
